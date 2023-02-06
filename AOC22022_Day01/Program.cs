@@ -15,3 +15,4 @@
 
 int maxCalories = sample.Split("\r\n\r\n").Max(elf => elf.Split("\r\n").Sum(int.Parse));
 Console.WriteLine($"Part 1: {maxCalories}");
+Console.WriteLine("Test");
